@@ -64,7 +64,7 @@ This project demonstrates an end-to-end example of client endpoint monitoring an
 
 The available evidence supports classifying the event as a failed interactive logon consistent with an incorrect password. It does **not** establish a remote attacker's identity or prove malicious intent. In a SOC environment, this event would be documented and assessed alongside relevant authentication activity and other available endpoint or domain-controller logs before determining whether escalation is warranted.
 
-For the technical details, evidence interpretation, and investigation limitations, see [investigation/investigation.md](investigation.md).
+For the technical details, evidence interpretation, and investigation limitations, see [investigation/investigation.md](investigation/investigation.md).
 
 ## Technologies
 
