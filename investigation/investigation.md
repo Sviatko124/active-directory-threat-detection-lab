@@ -24,19 +24,19 @@ The lab uses Active Directory for domain services and Wazuh to monitor security 
 
 ### Wazuh agent status
 
-![Wazuh agent status](screenshots/Screenshot%202026-10-24%20181134_agent_list.png)
+![Wazuh agent status](../screenshots/Screenshot%202026-10-24%20181134_agent_list.png)
 
 The Wazuh agent list shows CLIENT01 as active, confirming that the endpoint was connected to the monitoring environment when the status was captured.
 
 ### Domain membership
 
-![Windows domain membership verification](screenshots/Screenshot%202026-10-24%20181801_domain_info.png)
+![Windows domain membership verification](../screenshots/Screenshot%202026-10-24%20181801_domain_info.png)
 
 The endpoint's system information confirms that CLIENT01 belongs to `lab.practice.local`. This establishes the domain context for the authentication event examined in this report.
 
 ### Network and DNS configuration
 
-![Client network and DNS configuration](screenshots/Screenshot%202026-10-24%20181916_network_info.png)
+![Client network and DNS configuration](../screenshots/Screenshot%202026-10-24%20181916_network_info.png)
 
 The network configuration shows the endpoint's internal address as `192.168.50.20`, with `192.168.50.10` configured as DNS for the internal lab network. These details provide context for the endpoint's role in the environment.
 
@@ -76,15 +76,15 @@ Taken together, the fields support the conclusion that the interactive authentic
 
 ### Authentication-failure results
 
-![Wazuh authentication-failure results](screenshots/Screenshot%202026-10-24%20182420_authentication_failures.png)
+![Wazuh authentication-failure results](../screenshots/Screenshot%202026-10-24%20182420_authentication_failures.png)
 
 The Wazuh Threat Hunting dashboard displayed two authentication failures, corresponding to the two intentional failed logon attempts performed during testing.
 
 ### Detailed alert evidence
 
-![Wazuh alert event details](screenshots/Screenshot%202026-10-24%20182650_detailed_alert_info_1.png)
+![Wazuh alert event details](../screenshots/Screenshot%202026-10-24%20182650_detailed_alert_info_1.png)
 
-![Additional Wazuh alert event details](screenshots/Screenshot%202026-10-24%20182729_detailed_alert_info_2.png)
+![Additional Wazuh alert event details](../screenshots/Screenshot%202026-10-24%20182729_detailed_alert_info_2.png)
 
 The detailed alert fields provide the information used to examine the event, including the target account, Windows event ID, logon type, source address, and endpoint identity.
 
