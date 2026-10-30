@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates the use of **Wazuh SIEM** to monitor Windows security events and investigate a failed logon in my Active Directory lab environment.
+This project demonstrates the use of **[Wazuh SIEM](https://wazuh.com)** to monitor Windows security events and investigate a failed logon in my Active Directory lab environment.
 
 The investigation follows a standard SOC analyst workflow: validate the monitoring setup, investigate security events, examine its fields, interpret the available evidence, and document the event along with the evidence.
 
